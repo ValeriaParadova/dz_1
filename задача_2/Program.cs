@@ -4,11 +4,21 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-System.Console.Write("Enter first number : ");
+Console.WriteLine("Enter first number : ");
 
-int number = Convert.ToInt32(Console.ReadLine());
+int number1 = Convert.ToInt32(Console.ReadLine());
 
-System.Console.Write("Enter second number : ");
+Console.WriteLine("Enter second number : ");
 
-int number = Convert.ToInt32(Console.ReadLine());
+int number2 = Convert.ToInt32(Console.ReadLine());
 
+if (number1 > number2)
+{
+    Console.WriteLine($"MaxNumber {number1} больше числа {number2}");
+}
+else 
+{
+    Console.WriteLine($"MaxNumber {number2} больше числа {number1}");
+
+    Console.WriteLine($"MaxNumber {number1} меньше числа {number2}");
+}
