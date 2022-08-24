@@ -16,9 +16,13 @@ if (number1 > number2)
 {
     Console.WriteLine($"MaxNumber {number1} больше числа {number2}");
 }
-else 
+else if (number1 < number2)
 {
     Console.WriteLine($"MaxNumber {number2} больше числа {number1}");
 
     Console.WriteLine($"MaxNumber {number1} меньше числа {number2}");
+}
+else 
+{
+    Console.WriteLine("Числа равны");
 }
